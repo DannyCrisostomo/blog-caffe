@@ -1,0 +1,256 @@
+@media screen and (max-width:900px){
+    body {
+        font-family: var(--fuenteParrafos);
+        font-size: 1.6rem;
+        line-height: 1.3;
+        width: auto;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .contenedor2 {
+        flex-direction: column;
+    }
+    .logo {
+        font-size: 17px;
+    }
+    .link, a {
+        display: flex;
+        gap: 2rem;
+        font-family: var(--fuenteParrafos);
+        font-size: 16px;
+        padding: 3px 0px;
+    }
+    .contenedor3{
+        text-align: center;
+    }
+    .contenedor3 h1 {
+        font-size: 3rem;
+    }
+    /*Nuestro blog*/
+    .seccion {
+        padding: 20px 20px;
+    }
+    /*Seccion main*/
+    .main {
+        width: 100%;
+        height: auto;
+    }
+    .main h1 {
+        padding: 15px 0px;
+        font-size: 2.7rem;
+    }
+    .main .entrada img {
+        width: 100%;
+        padding: 30px 5px;
+        height: 370px;
+    }
+    .boton__primario{
+        background: rgb(0, 0, 0);
+        width: 100%;
+        margin-top: 20px;
+    }
+    /*Seccion aside*/
+    .aside {
+        width: 100%;
+        height: auto;
+    }
+    .aside img {
+        width: 100%;
+        height: 300px;
+    }
+    .boton__secundario{
+        background: rgb(0, 0, 0);
+        width: 100%;
+        margin-top: 20px;
+    }
+    .aside h1 {
+        padding: 15px 0px;
+        font-size: 3rem;
+    }
+    /*Sobre nosotros*/
+    #nosotros .imagen {
+        font-family: var(--fuenteParrafos);
+        font-size: 3.2rem;
+        padding: 45px 50px;
+        flex-direction: column;
+    }
+    #nosotros .imagen img {
+        width: 100%;
+        height: 350px;
+    }
+    #nosotros .imagen p {
+        font-size: 1.6rem;
+        line-height: 2;
+    }
+    /*Cursos*/
+    #cursos2 {
+        width: 100%;
+    }
+    #cursos .imagen {
+        justify-content: center;
+        align-items: center;
+        padding: 50px 80px;
+    }
+    #cursos .imagen img{
+        width: 32%;
+    }
+    #cursos .imagen .descripcion .descripcion_pro{
+        line-height: 2;
+    }
+    /*Footer*/
+    .formulario2 img {
+        width: 50%;
+        height: 480px;
+        padding: 70px 50px;
+    }
+
+    .content-foo h4{
+        font-size: 2.3rem;
+    }
+    .content-foo p{
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .titulo-final{
+        font-size: 20px;
+    }
+    footer p a {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    body {
+        font-family: var(--fuenteParrafos);
+        font-size: 1.6rem;
+        line-height: 1.3;
+        width: auto;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .contenedor1 {
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor3{
+        text-align: center;
+    }
+    /*Nuestro blog*/
+    .seccion {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    /*Seccion main*/
+    .main {
+        width: 100%;
+        height: auto;
+    }
+    .main h1 {
+        padding: 15px 0px;
+        font-size: 3rem;
+    }
+    .main .entrada img {
+        width: 100%;
+        padding: 30px 5px;
+        height: 370px;
+    }
+    .boton__primario{
+        background: rgb(0, 0, 0);
+        width: 100%;
+        margin-top: 20px;
+    }
+    /*Seccion aside*/
+    .aside {
+        width: 100%;
+        height: auto;
+    }
+    .aside img {
+        width: 100%;
+        height: 300px;
+    }
+    .boton__secundario{
+        background: rgb(0, 0, 0);
+        width: 100%;
+        margin-top: 20px;
+    }
+    .aside h1 {
+        padding: 15px 0px;
+        font-size: 3rem;
+    }
+    /*Sobre nosotros*/
+    #nosotros .imagen {
+        font-family: var(--fuenteParrafos);
+        font-size: 3.2rem;
+        padding: 20px 20px;
+        flex-direction: column;
+    }
+    #nosotros .imagen img {
+        width: 100%;
+        height: 390px;
+    }
+    /*Cursos*/
+    #cursos2 {
+        width: 100%;
+    }
+    #cursos .imagen {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 57px;
+    }
+    #cursos .imagen img{
+        width: 100%;
+        height: 100%;
+    }
+    /*Footer Formulario*/
+    .formulario2 img {
+        display: none;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .content-foo{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .content-foo h4{
+        font-size: 2.3rem;
+    }
+    .content-foo p{
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .titulo-final{
+        font-size: 20px;
+    }
+    footer p a {
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,78 @@
+/*Toggle*/
+.contenedor{
+    padding: 6px 0px;
+}
+.cuadro{
+    width: 60px;
+    height: 30px;
+    background: white;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.circulo{
+    transform: scale(.5);
+    width: 30px;
+    height: 30px;
+    background: rgb(0, 0, 0);
+    border-radius: 25px;
+    position: absolute;
+}
+
+#container.active .circulo{
+    left: 30px;
+    background: yellow;
+}
+body.active{
+    background: rgb(32, 32, 32);
+    color: white;
+}
+.contenedor-footer.active{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+/*Botones de main*/
+#boton__primario1.active {
+    background: rgb(255, 0, 89);
+}
+#boton__primario2.active {
+    background: rgb(255, 0, 89);
+}
+#boton__primario3.active {
+    background: rgb(255, 0, 89);
+}
+#boton__primario4.active {
+    background: rgb(255, 0, 89);
+}
+/*Botones de aside*/
+#boton__secundario1.active{
+    background: rgba(0, 255, 170, 0.57);
+}
+#boton__secundario2.active{
+    background: rgba(0, 255, 170, 0.57);
+}
+#boton__secundario3.active{
+    background: rgba(0, 255, 170, 0.57);
+}
+#boton__secundario4.active{
+    background: rgba(0, 255, 170, 0.57);
+}
+/*Footer*/
+footer p a.active{
+    color: white;
+}
+#input1.active{
+    color: white;
+}
+#input2.active{
+    color: white;
+}
+#input3.active{
+    color: white;
+}
+#input4.active{
+    color: rgb(255, 255, 255);
+    background: rgba(53, 52, 52, 0.466);
+}
+textarea.active{
+    color: white;
+}

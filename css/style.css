@@ -1,0 +1,313 @@
+::-webkit-scrollbar{
+    width: 10px;
+    height: 0.5px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(255, 0, 98);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(0, 247, 255);
+}
+
+:root{
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+    
+    --primario: #784d3c;
+    --claro: #e1e1e1;
+    --blanco: #ffffff;
+    --negro: #000000;
+
+}
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+    outline: none; border:none;
+    letter-spacing: 0!important;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    font-family: var(--fuenteParrafos);
+    line-height: 2;
+}
+
+/*Header*/
+.header {
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/*Nav*/
+.contenedor1{
+    width: auto;
+    height: 80px;
+    display: flex;
+    padding: 50px 90px;
+}
+.contenedor2{
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    font-family: var(--fuenteParrafos);
+    color: white;
+}
+.link,a{
+    display: flex;
+    gap:2rem;
+    font-family: var(--fuenteParrafos);
+    font-size: 20px;
+    color: white;
+}
+.contenedor3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-top: 10pc;
+    color: white;
+}
+.contenedor3 h1{
+    font-size: 4rem;
+    font-family: var(--fuenteParrafos);
+    font-weight: 700;
+}
+.contenedor3 p{
+    font-size: 15px;
+    margin-top: 1.5pc;
+}
+
+/*Secciones*/
+.seccion{
+    height: auto;
+    padding: 50px 50px;
+    display: flex;
+    gap: 2rem;
+}
+/*MAIN*/
+.main{
+    width: 64%;
+    height: auto;
+}
+article{
+    border-bottom: 1px solid rgb(255, 20, 98);
+    margin-bottom: 2rem;
+}
+.main h1{
+    padding: 20px 0px;
+    font-size: 3.2rem;
+}
+.main .entrada img{
+    width: 100%;
+    height: 400px;
+}
+.main .entrada p{
+    font-size: 1.6rem;
+}
+.boton {
+    display: block;
+    font-family: var(--fuenteHeading);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border: none;
+}
+.boton__primario {
+    width: 40%;
+    background-color: #000000;
+}
+/*ASIDE*/
+.aside{
+    width: 36%;
+    height: auto;
+}
+.aside h1{
+    padding: 20px 0px;
+    font-size: 3.2rem;
+    text-align: center;
+}
+.aside img{
+    width: 100%;
+    height: 200px;
+}
+.aside .precio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    
+}
+.boton__secundario {
+    background-color: rgb(157 45 91 / 82%);
+}
+.aside2{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-bottom: 2rem;
+}
+/*Sobre nosotros*/
+#nosotros{
+    width: 100%;
+    height: auto;
+}
+#nosotros h3{
+    text-align: center;
+    font-family: var(--fuenteParrafos);
+    font-size: 3.2rem;
+}
+#nosotros .imagen{
+    display: flex;
+    padding: 50px 50px;
+    font-family: var(--fuenteParrafos);
+    font-size: 3.2rem;
+    gap: 1rem;
+}
+#nosotros .imagen p{
+    font-family: var(--fuenteParrafos);
+    font-size: 1.7rem;
+}
+#nosotros .imagen img{
+    width: 70%;
+    height: 390px;
+}
+/*Cursos*/
+#cursos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cursos2{
+    width: 84%;
+}
+#cursos h3{
+    text-align: center;
+    font-family: var(--fuenteParrafos);
+    font-size: 3.2rem;
+}
+#cursos .imagen{
+    display: flex;
+    padding: 60px 0px;
+    font-family: var(--fuenteParrafos);
+    font-size: 3.2rem;
+    gap: 2rem;
+}
+#cursos .imagen img{
+    width: 32%;
+    height: 350px;
+}
+#cursos .imagen .descripcion h4{
+    font-size: 2.8rem;
+}
+#cursos .imagen .descripcion p{
+    font-size: 2.2rem;
+    padding: 13px 0px;
+}
+#cursos .imagen .descripcion .descripcion_pro {
+    font-size: 1.6rem;
+}
+/*Formulario*/
+.formulario {
+    width: 100%;
+    height: auto;
+}
+.formulario2 {
+    display: flex;
+}
+.formulario2 img {
+    width: 55%;
+    height: 480px;
+    padding: 30px 50px;
+}
+form {
+    flex: 1 1 45rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+form .box {
+    padding: 1.4rem;
+    margin: 1rem 0;
+    background: #3333;
+    text-transform: none;
+    font-size: 1.5rem;
+    width: 100%;
+}
+form .message {
+    height: 13em;
+    resize: none;
+}
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #3333;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+/*Footer*/
+footer{
+    padding: 40px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo {
+    font-size: 30px;
+    text-align: center;
+}
+.titulo span {
+    margin-bottom: 15px;
+    color: rgb(255, 20, 98);
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    border-bottom: 3px solid #d3206b;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 5ch;
+}
+footer p a{
+    text-decoration: none;
+    color: #000000;
+}
+.content-foo p{
+    font-size: 3ch;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+}
