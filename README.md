@@ -10,8 +10,6 @@ Este repositorio contiene el código fuente de un blog dedicado al mundo del caf
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Contribuir](#contribuir)
-- [Contacto](#contacto)
-- [Licencia](#licencia)
 
 ## Demo
 
