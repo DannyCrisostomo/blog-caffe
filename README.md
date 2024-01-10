@@ -2,6 +2,14 @@
 
 Este repositorio contiene el código fuente de un blog dedicado al mundo del café. Desde consejos sobre tipos de granos hasta cursos y talleres, nuestro blog busca compartir conocimientos y experiencias relacionadas con el café.
 
+
+## Vista Previa 🌐
+
+Puedes acceder a una vista previa en vivo del prototipo [aquí](https://hilarious-gingersnap-2e7320.netlify.app/).
+
+
+![php](https://github.com/DannyCrisostomo/blog-caffe/blob/main/BlogDeCafe.png)
+
 ## Contenido
 
 - [Demo](#demo)
@@ -11,13 +19,6 @@ Este repositorio contiene el código fuente de un blog dedicado al mundo del caf
 - [Uso](#uso)
 - [Contribuir](#contribuir)
 
-## Demo
-
-Puedes visitar [Blog de Café](https://example.com) para ver una demostración en vivo.
-
-## Capturas de Pantalla
-
-Inserta aquí algunas capturas de pantalla de tu aplicación o de ejemplos de contenido del blog.
 
 ## Características
 
@@ -45,7 +46,3 @@ Explora el blog para obtener información sobre café, leer artículos interesan
 3. Realiza tus cambios y haz commit (`git commit -m 'Añadir nueva funcionalidad'`)
 4. Sube los cambios a tu repositorio en GitHub (`git push origin feature/nueva-funcionalidad`)
 5. Abre un Pull Request
-
-## Vista Previa
-
-![php](https://github.com/DannyCrisostomo/blog-caffe/blob/main/BlogDeCafe.png)
